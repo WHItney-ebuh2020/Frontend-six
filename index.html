@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        ROCK <br />
+        PAPER <br />
+        SCISSORS
+      </h1>
+      <div class="score">
+        <p>SCORE</p>
+        <h1 id="scrore-board"></h1>
+      </div>
+    </div>
+
+    <div class="game" id="game">
+      <div class="game-hand" id="hand">
+        <div class="game-icon">
+          <img src="./images/icon-paper.svg" alt="" />
+        </div>
+      </div>
+      <div class="game-scissors" id="scissors">
+        <div class="game-icon">
+          <img src="./images/icon-scissors.svg" alt="" />
+        </div>
+      </div>
+      <div class="game-rock" id="rock">
+        <div class="game-icon">
+          <img src="./images/icon-rock.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="game-screen">
+      <div class="screen-con">
+        <p>YOU PICKED</p>
+        <div id="user-screen-item">
+          <div class="game-icon" id="user">
+            <!-- <img alt="picked" id="use"/> -->
+          </div>
+        </div>
+      </div>
+      <div class="screen-con">
+        <p>THE HOUSE PICKED</p>
+        <div id="computer-screen-item">
+          <div class="game-icon" id="computer">
+            <!-- <img alt="" id="" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="rule-footer" id="rule-footer">RULES</button>
+    <div class="rules" id="rules">
+      <div class="rule">
+        <div class="rule-head">
+          <h3>RULES</h3>
+          <img src="./images/icon-close.svg" alt="close icon" id="close-icon" />
+        </div>
+        <img src="./images/image-rules.svg" alt="" />
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
